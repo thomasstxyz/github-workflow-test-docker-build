@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 
-CMD echo test123 > /test123.txt
-CMD useradd -m -u 3131 thomas
+RUN echo test123 > /test123.txt
+RUN useradd -m -u 3131 thomas
